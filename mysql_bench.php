@@ -3,7 +3,7 @@ require_once('Timer.Class.php') ;
 
 $timer = new Timer(1);
 
-$handle = @fopen("/home/mdfuser/.ftr_site_settings", "r");
+$handle = @fopen("/path/to/settings.php", "r");
 $db=$user=$pass=$host="";
 
 if ($handle)
