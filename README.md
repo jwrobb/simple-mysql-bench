@@ -2,3 +2,7 @@ simple-mysql-bench
 ==================
 
 A PHP script to perform simple benchmarking against a MySQL database
+
+Notice I said simple. This script takes a Drupal settings.php file and connects to a database, creates a table then inserts some junk data, and finally cleans up after itself.
+
+This can easily be modified to use any database conneciton, just hardcode the connection information. More to come, but for now, keep it simple stupid.
