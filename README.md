@@ -1,5 +1,5 @@
-simple-mysql-bench
-==================
+Simple MySQL Benchmark
+======================
 
 A PHP script to perform simple benchmarking against a MySQL database
 
